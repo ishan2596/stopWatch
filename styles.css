@@ -1,0 +1,76 @@
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 20vh;
+  
+#heading{
+    position: absolute;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#box{
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    width: 70vw;
+    background-color: aqua;
+}
+
+#timer{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    margin-top: 7rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#button-container{
+    position:absolute;
+    top: 15.5rem;
+}
+
+.button{
+    display: inline-block;
+    height: 3.5rem;
+    width: 8rem;
+    border-radius: 15%;
+    margin: 0.2rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    transition: all ease 0.5s;
+}
+
+.digit{
+    font-size: 5rem;
+}
+
+#start{
+  background-color: rgb(131, 243, 86);
+}
+
+#start:hover{
+    box-shadow: 5px 5px 0px rgb(66, 124, 43);
+}
+
+#stop{
+    background-color: #ff4040;
+}
+
+#stop:hover{
+    box-shadow: 5px 5px 0px  #bd1010e3;
+}
+
+#reset{
+    background-color: rgb(93, 93, 235);
+}
+
+#reset:hover{
+    box-shadow: 5px 5px 0px rgb(25, 25, 110);
+}
